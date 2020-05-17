@@ -1,0 +1,147 @@
+Graded Quiz: Test your Project understanding
+
+1.Question 1
+Gray-scale images consist of 3 channels while colored images consist of 1 channel?
+True 
+ANS -Flase
+
+
+
+2.Question 2
+Which of the following indicates that the machine learning model is significantly underfitting?
+
+
+When training accuracy is 90% and validation accuracy is 85%
+
+
+ANS - When training accuracy is 70% and validation accuracy is 55%
+
+
+When training accuracy is 98% and validation accuracy is 80%
+
+
+When training accuracy is 85% and validation accuracy is 75%
+
+
+3.Question 3
+While training your CNN model, you find that training accuracy is 96% and the validation accuracy is 80%. What could be the reason for this?
+
+
+Model generalized well because of underfitting
+
+
+Model generalized well because of overfitting
+
+
+Model generalized poorly because of underfitting
+
+
+ANS - Model generalized poorly because of overfitting
+
+
+4.Question 4
+How many images will this code print out?
+
+
+
+25
+
+
+ANS- 50
+
+
+15
+
+
+10
+
+
+5.Question 5
+Which does this code do?
+
+
+
+Data shuffling, normalization, scaling
+
+
+Data shuffling, color-scale conversion, normalization
+
+
+ANS - Data shuffling, gray-scale conversion, normalization
+
+
+6.Question 6
+Artificial Neural Networks (ANNs) are information processing models that work by trying to mimic human biological neurons. ANNs can be modeled as follows "output = Ax + b". Which of the following variables are adjustable parameters? (where A is the input, x is the weight and b is the bias)
+
+
+x and output
+
+
+A and b
+
+
+output and A
+
+
+output and b
+
+
+ANS - x and b
+
+
+7.Question 7
+You are working on a computer vision application and you need that application to detect faces. You have been tasked to use CNN for the model. Why are CNN preferred for task related to images?
+
+
+CNNs are able to update their weights much better compared to other networks.
+
+
+CNNs are able to remember the relationship between various input images
+
+
+ANS"-CNNs are able to extract high level features
+
+
+CNNs has a built-in generalization capability
+
+
+8.Question 8
+You trained an artificial neural network to perform multi-class classification. After model training and validation, you find that your model is overfitting the training data. What changes can you make to the model architecture to avoid overfitting?
+
+
+Use early stopping
+
+
+Use more dataset
+
+
+Add an additional dense layer
+
+
+ANS :- Add dropout
+
+
+
+9.Question 9
+For binary classification problems, we use the following command to compile the model:
+
+
+
+True
+
+
+ANS:-False
+
+10.Question 10
+You are training a CNN image classifier and you have initially observed around 40th epoch that the model's validation score and training accuracy were both 94%. As the training continued, at 90th epoch, the training accuracy went up to 98% and validation score went down to 87%. What is the problem here and how can it be rectified effectively?
+
+
+CNN is underfiiting and we should use early stopping
+
+CNN is underfitting and we should shuffle the data
+
+
+ANS:-CNN is overfitting and we should use early stopping
+
+
+CNN is overfitting and we should shuffle the data
